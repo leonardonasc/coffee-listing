@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "type": "Cappuccino",
+    "price": 4.10,
+    "sold": false
+  },
+  {
+    "id": 2,
+    "type": "House Coffee",
+    "price": 1.20,
+    "sold": true
+  },
+  {
+    "id": 3,
+    "type": "Espresso",
+    "price": 2.00,
+    "sold": false
+  },
+  {
+    "id": 4,
+    "type": "Coffee Latte",
+    "price": 4.30,
+    "sold": false
+  },
+  {
+    "id": 5,
+    "type": "Chocolate Coffee",
+    "price": 3.40,
+    "sold": false
+  },
+  {
+    "id": 6,
+    "type": "Valentine Special",
+    "price": 5.00,
+    "sold": false
+  }
+]
