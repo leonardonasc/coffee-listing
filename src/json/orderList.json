@@ -2,37 +2,49 @@
   {
     "id": 1,
     "type": "Cappuccino",
-    "price": 4.10,
-    "sold": false
+    "price": 3.20,
+    "sold": false,
+    "rating": 4.76,
+    "isPopular": true
   },
   {
     "id": 2,
     "type": "House Coffee",
-    "price": 1.20,
-    "sold": true
+    "price": 2.20,
+    "sold": true,
+    "rating": 4.11,
+    "isPopular": false
   },
   {
     "id": 3,
     "type": "Espresso",
     "price": 2.00,
-    "sold": false
+    "sold": false,
+    "rating": 4.80,
+    "isPopular": false
   },
   {
     "id": 4,
     "type": "Coffee Latte",
-    "price": 4.30,
-    "sold": false
+    "price": 4.76,
+    "sold": false,
+    "rating": "",
+    "isPopular": false
   },
   {
     "id": 5,
     "type": "Chocolate Coffee",
     "price": 3.40,
-    "sold": false
+    "sold": false,
+    "rating": 4.41,
+    "isPopular": true
   },
   {
     "id": 6,
     "type": "Valentine Special",
     "price": 5.00,
-    "sold": false
+    "sold": false,
+    "rating": "",
+    "isPopular": false
   }
 ]

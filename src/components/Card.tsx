@@ -21,7 +21,6 @@ export default function Card() {
             width={250}
             height={64}
           />
-
           <div className="flex justify-between ">
             <h1 className="text-white">{coffee.type}</h1>
             <h2 className="text-xs bg-green-200 text-black font-bold rounded-md p-1">
@@ -29,13 +28,26 @@ export default function Card() {
             </h2>
           </div>
           <div className="flex justify-between">
-            <ul className="flex gap-1 items-end">
-              <li>
-                <img src="/assets/svgs/star_fill.svg" alt="" />
-              </li>
-              <li className="text-sm text-white">4.7</li>
-              <li className="text-zinc-500 text-xs font-bold">(35 votes)</li>
-            </ul>
+            <span className="">
+              {coffee.rating ? (
+                <ul className="flex gap-1 items-end">
+                  <li>
+                    <img src="/assets/svgs/star_fill.svg" alt="" />
+                  </li>
+                  <li className="text-sm text-white">{coffee.rating}</li>
+                  <li className="text-zinc-500 text-xs font-bold">
+                    (35 votes)
+                  </li>
+                </ul>
+              ) : (
+                <ul className="flex gap-1 items-end">
+                  <li>
+                    <img src="/assets/svgs/star.svg" alt="" />
+                  </li>
+                  <li className="text-sm text-white">No ratings</li>
+                </ul>
+              )}
+            </span>
             <div>
               <span className="text-xs text-orange-500 font-bold">
                 {coffee.sold ? "sold out" : ""}
